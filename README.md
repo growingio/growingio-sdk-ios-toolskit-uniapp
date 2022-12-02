@@ -15,7 +15,7 @@ GrowingToolsKit 旨在帮助用户提高集成 GrowingIO SDK 效率，在使用 
 
 ### 集成
 
-Release 目录下为已打包好的 GrowingToolsKit 原生插件，可直接用来离线打包或云打包
+Release 目录下为已打包好的 GrowingToolsKit 原生插件 (GrowingToolsKit-SDK2nd 为适配 uni-app 埋点 SDK 2.x 打包)，可直接用来离线打包或云打包
 
 GrowingToolsKit 原生插件默认自动随着应用启动而初始化
 
@@ -39,8 +39,30 @@ uni.showToast({
 ### 开发调试
 
 1. 手动下载 GrowingCoreKit 2.9.13 (大概 30MB)，并放入 `HBuilder-uniPluginDemo`
+
 2. 自行下载 uni-app 开发插件需要的 [SDK 包](https://nativesupport.dcloud.net.cn/AppDocs/download/ios) (开发时用的是 3.6.5，大概 1GB) 并解压，将解压后的 `SDK/SDK` 目录放在根目录下
+
 3. 运行项目中 `HBuilder-uniPluginDemo/HBuilder-uniPlugin.xcodeproj` 进行开发调试，其已集成好 [uni-app 埋点 SDK 2.x](https://github.com/growingio/growing-sdk-uniapp)，后续再添加 uni-app 埋点 SDK 3.x 集成
+
+4. 编译时，Build Settings 修改 **GCC_PREPROCESSOR_DEFINITIONS** 添加 `GROWING_SDK2nd=1`，将适配 uni-app 埋点 SDK 2.x，否则 GioKit 内部分 SDK 信息将显示错误
+
+5. 编译产物 GrowingToolsKit.framework 替换掉 Release 目录下对应的插件目录下 `ios/GrowingToolsKit.framework`，根据是否修改 **GCC_PREPROCESSOR_DEFINITIONS** 来选择对应插件
+
+   ```
+   .
+   ├── GrowingToolsKit
+   │   ├── ios
+   │   │   ├── BundleResources
+   │   │   │   └── GrowingToolsKit.bundle
+   │   │   └── GrowingToolsKit.framework
+   │   └── package.json
+   └── GrowingToolsKit-SDK2nd
+       ├── ios
+       │   ├── BundleResources
+       │   │   └── GrowingToolsKit.bundle
+       │   └── GrowingToolsKit.framework // GCC_PREPROCESSOR_DEFINITIONS 添加 GROWING_SDK2nd=1
+       └── package.json
+   ```
 
 uni-app 应用中的主要代码如下：
 
