@@ -1,0 +1,6 @@
+framework module GrowingToolsKit {
+  umbrella header "GrowingToolsKit.h"
+
+  export *
+  module * { export * }
+}

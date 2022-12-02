@@ -1,0 +1,1389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344D09672937842B000F8FF8 /* GrowingTKUniModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09652937842B000F8FF8 /* GrowingTKUniModule.h */; };
+		344D09682937842B000F8FF8 /* GrowingTKUniModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09662937842B000F8FF8 /* GrowingTKUniModule.m */; };
+		344D096B2937861A000F8FF8 /* GrowingTKUniProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09692937861A000F8FF8 /* GrowingTKUniProxy.h */; };
+		344D096C2937861A000F8FF8 /* GrowingTKUniProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D096A2937861A000F8FF8 /* GrowingTKUniProxy.m */; };
+		344D0A4729378B2C000F8FF8 /* GrowingTKDatabase+Request.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D097229378B2B000F8FF8 /* GrowingTKDatabase+Request.h */; };
+		344D0A4829378B2C000F8FF8 /* GrowingTKRequestPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D097329378B2B000F8FF8 /* GrowingTKRequestPersistence.m */; };
+		344D0A4929378B2C000F8FF8 /* GrowingTKDatabase+Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D097429378B2B000F8FF8 /* GrowingTKDatabase+Request.m */; };
+		344D0A4A29378B2C000F8FF8 /* GrowingTKRequestPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D097529378B2B000F8FF8 /* GrowingTKRequestPersistence.h */; };
+		344D0A4B29378B2C000F8FF8 /* GrowingTKRequestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D097729378B2B000F8FF8 /* GrowingTKRequestUtil.m */; };
+		344D0A4C29378B2C000F8FF8 /* GrowingTKLZ4.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D097929378B2B000F8FF8 /* GrowingTKLZ4.h */; };
+		344D0A4D29378B2C000F8FF8 /* GrowingTKLZ4.c in Sources */ = {isa = PBXBuildFile; fileRef = 344D097A29378B2B000F8FF8 /* GrowingTKLZ4.c */; };
+		344D0A4E29378B2C000F8FF8 /* GrowingTKRequestUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D097B29378B2B000F8FF8 /* GrowingTKRequestUtil.h */; };
+		344D0A4F29378B2C000F8FF8 /* GrowingTKNetFlowPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D097C29378B2B000F8FF8 /* GrowingTKNetFlowPlugin.h */; };
+		344D0A5029378B2C000F8FF8 /* GrowingTKNetFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D097E29378B2B000F8FF8 /* GrowingTKNetFlowViewController.m */; };
+		344D0A5129378B2C000F8FF8 /* GrowingTKNetFlowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D097F29378B2B000F8FF8 /* GrowingTKNetFlowDetailViewController.m */; };
+		344D0A5229378B2C000F8FF8 /* GrowingTKNetFlowViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D098029378B2B000F8FF8 /* GrowingTKNetFlowViewController.h */; };
+		344D0A5329378B2C000F8FF8 /* GrowingTKNetFlowHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D098229378B2B000F8FF8 /* GrowingTKNetFlowHeaderView.m */; };
+		344D0A5429378B2C000F8FF8 /* GrowingTKSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D098329378B2B000F8FF8 /* GrowingTKSegmentedControl.h */; };
+		344D0A5529378B2C000F8FF8 /* GrowingTKNetFlowDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D098429378B2B000F8FF8 /* GrowingTKNetFlowDetailTableViewCell.m */; };
+		344D0A5629378B2C000F8FF8 /* GrowingTKNetFlowTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D098529378B2B000F8FF8 /* GrowingTKNetFlowTableViewCell.h */; };
+		344D0A5729378B2C000F8FF8 /* GrowingTKNetFlowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D098629378B2B000F8FF8 /* GrowingTKNetFlowTableViewCell.m */; };
+		344D0A5829378B2C000F8FF8 /* GrowingTKNetFlowDetailTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D098729378B2B000F8FF8 /* GrowingTKNetFlowDetailTableViewCell.h */; };
+		344D0A5929378B2C000F8FF8 /* GrowingTKSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D098829378B2B000F8FF8 /* GrowingTKSegmentedControl.m */; };
+		344D0A5A29378B2C000F8FF8 /* GrowingTKNetFlowHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D098929378B2B000F8FF8 /* GrowingTKNetFlowHeaderView.h */; };
+		344D0A5B29378B2C000F8FF8 /* GrowingTKNetFlowDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D098A29378B2B000F8FF8 /* GrowingTKNetFlowDetailViewController.h */; };
+		344D0A5C29378B2C000F8FF8 /* Dummy-Module-NetFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D098C29378B2B000F8FF8 /* Dummy-Module-NetFlow.h */; };
+		344D0A5D29378B2C000F8FF8 /* GrowingTKURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D098E29378B2B000F8FF8 /* GrowingTKURLProtocol.m */; };
+		344D0A5E29378B2C000F8FF8 /* GrowingTKDataTaskInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D098F29378B2B000F8FF8 /* GrowingTKDataTaskInfo.h */; };
+		344D0A5F29378B2C000F8FF8 /* GrowingTKURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D099029378B2B000F8FF8 /* GrowingTKURLProtocol.h */; };
+		344D0A6029378B2C000F8FF8 /* GrowingTKDataTaskInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D099129378B2B000F8FF8 /* GrowingTKDataTaskInfo.m */; };
+		344D0A6129378B2C000F8FF8 /* GrowingTKNetFlowPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D099229378B2B000F8FF8 /* GrowingTKNetFlowPlugin.m */; };
+		344D0A6229378B2C000F8FF8 /* GrowingTKSettingsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D099429378B2B000F8FF8 /* GrowingTKSettingsPlugin.m */; };
+		344D0A6329378B2C000F8FF8 /* GrowingTKSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D099629378B2B000F8FF8 /* GrowingTKSettingsViewController.m */; };
+		344D0A6429378B2C000F8FF8 /* GrowingTKSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D099729378B2B000F8FF8 /* GrowingTKSettingsViewController.h */; };
+		344D0A6529378B2C000F8FF8 /* GrowingTKSettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D099929378B2B000F8FF8 /* GrowingTKSettingsTableViewCell.m */; };
+		344D0A6629378B2C000F8FF8 /* GrowingTKSettingsTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D099A29378B2B000F8FF8 /* GrowingTKSettingsTableViewCell.h */; };
+		344D0A6729378B2C000F8FF8 /* Dummy-Module-Settings.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D099C29378B2B000F8FF8 /* Dummy-Module-Settings.h */; };
+		344D0A6829378B2C000F8FF8 /* GrowingTKSettingsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D099D29378B2B000F8FF8 /* GrowingTKSettingsPlugin.h */; };
+		344D0A6929378B2C000F8FF8 /* GrowingTKDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09A029378B2B000F8FF8 /* GrowingTKDatabase.h */; };
+		344D0A6A29378B2C000F8FF8 /* GrowingTKFMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09A229378B2B000F8FF8 /* GrowingTKFMDatabasePool.h */; };
+		344D0A6B29378B2C000F8FF8 /* GrowingTKFMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09A329378B2B000F8FF8 /* GrowingTKFMDatabaseQueue.h */; };
+		344D0A6C29378B2C000F8FF8 /* GrowingTKFMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09A429378B2B000F8FF8 /* GrowingTKFMDatabase.h */; };
+		344D0A6D29378B2C000F8FF8 /* GrowingTKFMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09A529378B2B000F8FF8 /* GrowingTKFMResultSet.m */; };
+		344D0A6E29378B2C000F8FF8 /* GrowingTKFMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09A629378B2B000F8FF8 /* GrowingTKFMDatabaseAdditions.m */; };
+		344D0A6F29378B2C000F8FF8 /* GrowingTKFMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09A729378B2B000F8FF8 /* GrowingTKFMDB.h */; };
+		344D0A7029378B2C000F8FF8 /* GrowingTKFMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09A829378B2B000F8FF8 /* GrowingTKFMDatabaseQueue.m */; };
+		344D0A7129378B2C000F8FF8 /* GrowingTKFMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09A929378B2B000F8FF8 /* GrowingTKFMDatabasePool.m */; };
+		344D0A7229378B2C000F8FF8 /* GrowingTKFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09AA29378B2B000F8FF8 /* GrowingTKFMDatabase.m */; };
+		344D0A7329378B2C000F8FF8 /* GrowingTKFMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09AB29378B2B000F8FF8 /* GrowingTKFMResultSet.h */; };
+		344D0A7429378B2C000F8FF8 /* GrowingTKFMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09AC29378B2B000F8FF8 /* GrowingTKFMDatabaseAdditions.h */; };
+		344D0A7529378B2C000F8FF8 /* GrowingTKDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09AD29378B2B000F8FF8 /* GrowingTKDatabase.m */; };
+		344D0A7629378B2C000F8FF8 /* GrowingTKEntryWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09AE29378B2B000F8FF8 /* GrowingTKEntryWindow.h */; };
+		344D0A7729378B2C000F8FF8 /* GrowingTKNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09B029378B2B000F8FF8 /* GrowingTKNumberUtil.m */; };
+		344D0A7829378B2C000F8FF8 /* GrowingTKDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09B129378B2B000F8FF8 /* GrowingTKDateUtil.h */; };
+		344D0A7929378B2C000F8FF8 /* GrowingTKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09B229378B2B000F8FF8 /* GrowingTKDevice.m */; };
+		344D0A7A29378B2C000F8FF8 /* GrowingTKWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09B329378B2B000F8FF8 /* GrowingTKWeakObject.m */; };
+		344D0A7B29378B2C000F8FF8 /* GrowingTKLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09B429378B2B000F8FF8 /* GrowingTKLocalization.h */; };
+		344D0A7C29378B2C000F8FF8 /* GrowingTKUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09B529378B2B000F8FF8 /* GrowingTKUtil.h */; };
+		344D0A7D29378B2C000F8FF8 /* GrowingTKSDKUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09B629378B2B000F8FF8 /* GrowingTKSDKUtil.h */; };
+		344D0A7E29378B2C000F8FF8 /* GrowingTKPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09B729378B2B000F8FF8 /* GrowingTKPermission.h */; };
+		344D0A7F29378B2C000F8FF8 /* GrowingTKNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09B829378B2B000F8FF8 /* GrowingTKNumberUtil.h */; };
+		344D0A8029378B2C000F8FF8 /* GrowingTKDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09B929378B2B000F8FF8 /* GrowingTKDateUtil.m */; };
+		344D0A8129378B2C000F8FF8 /* GrowingTKWeakObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09BA29378B2B000F8FF8 /* GrowingTKWeakObject.h */; };
+		344D0A8229378B2C000F8FF8 /* GrowingTKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09BB29378B2B000F8FF8 /* GrowingTKDevice.h */; };
+		344D0A8329378B2C000F8FF8 /* GrowingTKLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09BC29378B2B000F8FF8 /* GrowingTKLocalization.m */; };
+		344D0A8429378B2C000F8FF8 /* GrowingTKPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09BD29378B2B000F8FF8 /* GrowingTKPermission.m */; };
+		344D0A8529378B2C000F8FF8 /* GrowingTKSDKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09BE29378B2B000F8FF8 /* GrowingTKSDKUtil.m */; };
+		344D0A8629378B2C000F8FF8 /* GrowingTKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09BF29378B2B000F8FF8 /* GrowingTKUtil.m */; };
+		344D0A8729378B2C000F8FF8 /* GrowingTKPluginProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09C129378B2B000F8FF8 /* GrowingTKPluginProtocol.h */; };
+		344D0A8829378B2C000F8FF8 /* GrowingTKPluginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09C229378B2B000F8FF8 /* GrowingTKPluginManager.h */; };
+		344D0A8929378B2C000F8FF8 /* GrowingTKPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09C329378B2B000F8FF8 /* GrowingTKPluginManager.m */; };
+		344D0A8A29378B2C000F8FF8 /* GrowingRealToolsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09C429378B2B000F8FF8 /* GrowingRealToolsKit.h */; };
+		344D0A8D29378B2C000F8FF8 /* GrowingTKHomeWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09CA29378B2B000F8FF8 /* GrowingTKHomeWindow.h */; };
+		344D0A8E29378B2C000F8FF8 /* GrowingTKEntryWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09CB29378B2B000F8FF8 /* GrowingTKEntryWindow.m */; };
+		344D0A8F29378B2C000F8FF8 /* Dummy-Module-Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09CD29378B2B000F8FF8 /* Dummy-Module-Core.h */; };
+		344D0A9029378B2C000F8FF8 /* GrowingTKDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09CE29378B2B000F8FF8 /* GrowingTKDefine.h */; };
+		344D0A9129378B2C000F8FF8 /* GrowingTKHomeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09CF29378B2B000F8FF8 /* GrowingTKHomeWindow.m */; };
+		344D0A9229378B2C000F8FF8 /* GrowingTKHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09D229378B2B000F8FF8 /* GrowingTKHomeViewController.m */; };
+		344D0A9329378B2C000F8FF8 /* GrowingTKHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09D329378B2B000F8FF8 /* GrowingTKHomeViewController.h */; };
+		344D0A9429378B2C000F8FF8 /* GrowingTKSDKCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09D529378B2B000F8FF8 /* GrowingTKSDKCheckViewController.m */; };
+		344D0A9529378B2C000F8FF8 /* GrowingTKCheckSelfView.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09D729378B2B000F8FF8 /* GrowingTKCheckSelfView.h */; };
+		344D0A9629378B2C000F8FF8 /* GrowingTKCheckInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09D829378B2B000F8FF8 /* GrowingTKCheckInfoTableViewCell.m */; };
+		344D0A9729378B2C000F8FF8 /* GrowingTKCheckSelfView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09D929378B2B000F8FF8 /* GrowingTKCheckSelfView.m */; };
+		344D0A9829378B2C000F8FF8 /* GrowingTKCheckInfoTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09DA29378B2B000F8FF8 /* GrowingTKCheckInfoTableViewCell.h */; };
+		344D0A9929378B2C000F8FF8 /* GrowingTKSDKCheckViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09DB29378B2B000F8FF8 /* GrowingTKSDKCheckViewController.h */; };
+		344D0A9A29378B2C000F8FF8 /* GrowingTKEntryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09DC29378B2B000F8FF8 /* GrowingTKEntryViewController.h */; };
+		344D0A9B29378B2C000F8FF8 /* GrowingTKPluginsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09DE29378B2B000F8FF8 /* GrowingTKPluginsListViewController.m */; };
+		344D0A9C29378B2C000F8FF8 /* GrowingTKPluginsListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09DF29378B2B000F8FF8 /* GrowingTKPluginsListViewController.h */; };
+		344D0A9D29378B2C000F8FF8 /* GrowingTKPluginsListFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09E129378B2B000F8FF8 /* GrowingTKPluginsListFooterView.h */; };
+		344D0A9E29378B2C000F8FF8 /* GrowingTKPluginsListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09E229378B2B000F8FF8 /* GrowingTKPluginsListHeaderView.m */; };
+		344D0A9F29378B2C000F8FF8 /* GrowingTKPluginsListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09E329378B2C000F8FF8 /* GrowingTKPluginsListCollectionViewCell.m */; };
+		344D0AA029378B2C000F8FF8 /* GrowingTKPluginsListFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09E429378B2C000F8FF8 /* GrowingTKPluginsListFooterView.m */; };
+		344D0AA129378B2C000F8FF8 /* GrowingTKPluginsListHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09E529378B2C000F8FF8 /* GrowingTKPluginsListHeaderView.h */; };
+		344D0AA229378B2C000F8FF8 /* GrowingTKPluginsListCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09E629378B2C000F8FF8 /* GrowingTKPluginsListCollectionViewCell.h */; };
+		344D0AA329378B2C000F8FF8 /* GrowingTKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09E929378B2C000F8FF8 /* GrowingTKBaseViewController.m */; };
+		344D0AA429378B2C000F8FF8 /* GrowingTKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09EA29378B2C000F8FF8 /* GrowingTKNavigationController.m */; };
+		344D0AA529378B2C000F8FF8 /* GrowingTKBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09EB29378B2C000F8FF8 /* GrowingTKBaseViewController.h */; };
+		344D0AA629378B2C000F8FF8 /* GrowingTKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09EC29378B2C000F8FF8 /* GrowingTKNavigationController.h */; };
+		344D0AA729378B2C000F8FF8 /* GrowingTKChooseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09EE29378B2C000F8FF8 /* GrowingTKChooseView.h */; };
+		344D0AA829378B2C000F8FF8 /* GrowingTKNavigationTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09EF29378B2C000F8FF8 /* GrowingTKNavigationTitleView.m */; };
+		344D0AA929378B2C000F8FF8 /* GrowingTKNavigationItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09F029378B2C000F8FF8 /* GrowingTKNavigationItemView.m */; };
+		344D0AAA29378B2C000F8FF8 /* GrowingTKModuleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09F129378B2C000F8FF8 /* GrowingTKModuleButton.m */; };
+		344D0AAB29378B2D000F8FF8 /* GrowingTKCopyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09F229378B2C000F8FF8 /* GrowingTKCopyTextView.m */; };
+		344D0AAC29378B2D000F8FF8 /* GrowingTKNavigationTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09F329378B2C000F8FF8 /* GrowingTKNavigationTitleView.h */; };
+		344D0AAD29378B2D000F8FF8 /* GrowingTKChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09F429378B2C000F8FF8 /* GrowingTKChooseView.m */; };
+		344D0AAE29378B2D000F8FF8 /* GrowingTKNavigationItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09F529378B2C000F8FF8 /* GrowingTKNavigationItemView.h */; };
+		344D0AAF29378B2D000F8FF8 /* GrowingTKCopyTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09F629378B2C000F8FF8 /* GrowingTKCopyTextView.h */; };
+		344D0AB029378B2D000F8FF8 /* GrowingTKModuleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09F729378B2C000F8FF8 /* GrowingTKModuleButton.h */; };
+		344D0AB129378B2D000F8FF8 /* GrowingTKEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09F829378B2C000F8FF8 /* GrowingTKEntryViewController.m */; };
+		344D0AB229378B2D000F8FF8 /* GrowingRealToolsKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09F929378B2C000F8FF8 /* GrowingRealToolsKit.m */; };
+		344D0AB329378B2D000F8FF8 /* UIViewController+GrowingTK.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09FC29378B2C000F8FF8 /* UIViewController+GrowingTK.m */; };
+		344D0AB429378B2D000F8FF8 /* UIView+GrowingTK.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09FD29378B2C000F8FF8 /* UIView+GrowingTK.h */; };
+		344D0AB529378B2D000F8FF8 /* UIImage+GrowingTK.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D09FE29378B2C000F8FF8 /* UIImage+GrowingTK.m */; };
+		344D0AB629378B2D000F8FF8 /* UIColor+GrowingTK.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D09FF29378B2C000F8FF8 /* UIColor+GrowingTK.h */; };
+		344D0AB729378B2D000F8FF8 /* UIImage+GrowingTK.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A0029378B2C000F8FF8 /* UIImage+GrowingTK.h */; };
+		344D0AB829378B2D000F8FF8 /* UIView+GrowingTK.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A0129378B2C000F8FF8 /* UIView+GrowingTK.m */; };
+		344D0AB929378B2D000F8FF8 /* UIViewController+GrowingTK.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A0229378B2C000F8FF8 /* UIViewController+GrowingTK.h */; };
+		344D0ABA29378B2D000F8FF8 /* UIColor+GrowingTK.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A0329378B2C000F8FF8 /* UIColor+GrowingTK.m */; };
+		344D0ABB29378B2D000F8FF8 /* NSBundle+GrowingTK.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A0529378B2C000F8FF8 /* NSBundle+GrowingTK.m */; };
+		344D0ABC29378B2D000F8FF8 /* NSObject+GrowingTKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A0629378B2C000F8FF8 /* NSObject+GrowingTKSwizzle.m */; };
+		344D0ABD29378B2D000F8FF8 /* NSBundle+GrowingTK.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A0729378B2C000F8FF8 /* NSBundle+GrowingTK.h */; };
+		344D0ABE29378B2D000F8FF8 /* NSObject+GrowingTKSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A0829378B2C000F8FF8 /* NSObject+GrowingTKSwizzle.h */; };
+		344D0ABF29378B2D000F8FF8 /* GrowingTKRealtimeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A0A29378B2C000F8FF8 /* GrowingTKRealtimeWindow.m */; };
+		344D0AC029378B2D000F8FF8 /* GrowingTKRealtimeEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A0C29378B2C000F8FF8 /* GrowingTKRealtimeEvent.h */; };
+		344D0AC129378B2D000F8FF8 /* GrowingTKRealtimeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A0D29378B2C000F8FF8 /* GrowingTKRealtimeEvent.m */; };
+		344D0AC229378B2D000F8FF8 /* GrowingTKRealtimePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A0E29378B2C000F8FF8 /* GrowingTKRealtimePlugin.m */; };
+		344D0AC329378B2D000F8FF8 /* GrowingTKRealtimeWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A0F29378B2C000F8FF8 /* GrowingTKRealtimeWindow.h */; };
+		344D0AC429378B2D000F8FF8 /* GrowingTKRealtimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A1129378B2C000F8FF8 /* GrowingTKRealtimeViewController.m */; };
+		344D0AC529378B2D000F8FF8 /* GrowingTKRealtimeSingleBubble.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A1329378B2C000F8FF8 /* GrowingTKRealtimeSingleBubble.h */; };
+		344D0AC629378B2D000F8FF8 /* GrowingTKRealtimePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A1429378B2C000F8FF8 /* GrowingTKRealtimePool.m */; };
+		344D0AC729378B2D000F8FF8 /* GrowingTKRealtimeMutiBubble.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A1529378B2C000F8FF8 /* GrowingTKRealtimeMutiBubble.h */; };
+		344D0AC829378B2D000F8FF8 /* GrowingTKRealtimeSingleBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A1629378B2C000F8FF8 /* GrowingTKRealtimeSingleBubble.m */; };
+		344D0AC929378B2D000F8FF8 /* GrowingTKRealtimeBubble.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A1729378B2C000F8FF8 /* GrowingTKRealtimeBubble.h */; };
+		344D0ACA29378B2D000F8FF8 /* GrowingTKRealtimePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A1829378B2C000F8FF8 /* GrowingTKRealtimePool.h */; };
+		344D0ACB29378B2D000F8FF8 /* GrowingTKRealtimeMutiBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A1929378B2C000F8FF8 /* GrowingTKRealtimeMutiBubble.m */; };
+		344D0ACC29378B2D000F8FF8 /* GrowingTKRealtimeListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A1B29378B2C000F8FF8 /* GrowingTKRealtimeListView.h */; };
+		344D0ACD29378B2D000F8FF8 /* GrowingTKRealtimeListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A1C29378B2C000F8FF8 /* GrowingTKRealtimeListView.m */; };
+		344D0ACE29378B2D000F8FF8 /* GrowingTKRealtimeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A1D29378B2C000F8FF8 /* GrowingTKRealtimeViewController.h */; };
+		344D0ACF29378B2D000F8FF8 /* Dummy-Module-Realtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A1F29378B2C000F8FF8 /* Dummy-Module-Realtime.h */; };
+		344D0AD029378B2D000F8FF8 /* GrowingTKRealtimePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A2029378B2C000F8FF8 /* GrowingTKRealtimePlugin.h */; };
+		344D0AD129378B2D000F8FF8 /* GrowingTKDatabase+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A2329378B2C000F8FF8 /* GrowingTKDatabase+Event.m */; };
+		344D0AD229378B2D000F8FF8 /* GrowingTKEventPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A2429378B2C000F8FF8 /* GrowingTKEventPersistence.h */; };
+		344D0AD329378B2D000F8FF8 /* GrowingTKDatabase+Event.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A2529378B2C000F8FF8 /* GrowingTKDatabase+Event.h */; };
+		344D0AD429378B2D000F8FF8 /* GrowingTKEventPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A2629378B2C000F8FF8 /* GrowingTKEventPersistence.m */; };
+		344D0AD529378B2D000F8FF8 /* GrowingTKEventsListPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A2729378B2C000F8FF8 /* GrowingTKEventsListPlugin.h */; };
+		344D0AD629378B2D000F8FF8 /* GrowingTKEventsListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A2929378B2C000F8FF8 /* GrowingTKEventsListViewController.h */; };
+		344D0AD729378B2D000F8FF8 /* GrowingTKEventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A2A29378B2C000F8FF8 /* GrowingTKEventDetailViewController.m */; };
+		344D0AD829378B2D000F8FF8 /* GrowingTKEventsListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A2C29378B2C000F8FF8 /* GrowingTKEventsListHeaderView.m */; };
+		344D0AD929378B2D000F8FF8 /* GrowingTKEventTypeChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A2D29378B2C000F8FF8 /* GrowingTKEventTypeChooseView.m */; };
+		344D0ADA29378B2D000F8FF8 /* GrowingTKEventsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A2E29378B2C000F8FF8 /* GrowingTKEventsListTableViewCell.m */; };
+		344D0ADB29378B2D000F8FF8 /* GrowingTKEventsListHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A2F29378B2C000F8FF8 /* GrowingTKEventsListHeaderView.h */; };
+		344D0ADC29378B2D000F8FF8 /* GrowingTKEventsListTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A3029378B2C000F8FF8 /* GrowingTKEventsListTableViewCell.h */; };
+		344D0ADD29378B2D000F8FF8 /* GrowingTKEventTypeChooseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A3129378B2C000F8FF8 /* GrowingTKEventTypeChooseView.h */; };
+		344D0ADE29378B2D000F8FF8 /* GrowingTKEventDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A3229378B2C000F8FF8 /* GrowingTKEventDetailViewController.h */; };
+		344D0ADF29378B2D000F8FF8 /* GrowingTKEventsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A3329378B2C000F8FF8 /* GrowingTKEventsListViewController.m */; };
+		344D0AE029378B2D000F8FF8 /* Dummy-Module-EventList.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A3529378B2C000F8FF8 /* Dummy-Module-EventList.h */; };
+		344D0AE129378B2D000F8FF8 /* GrowingTKEventsListPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A3629378B2C000F8FF8 /* GrowingTKEventsListPlugin.m */; };
+		344D0AE229378B2D000F8FF8 /* GrowingTKAppInfoUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A3829378B2C000F8FF8 /* GrowingTKAppInfoUtil.h */; };
+		344D0AE329378B2D000F8FF8 /* GrowingTKSDKInfoPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A3929378B2C000F8FF8 /* GrowingTKSDKInfoPlugin.h */; };
+		344D0AE429378B2D000F8FF8 /* GrowingTKSDKInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A3B29378B2C000F8FF8 /* GrowingTKSDKInfoViewController.h */; };
+		344D0AE529378B2D000F8FF8 /* GrowingTKSDKInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A3C29378B2C000F8FF8 /* GrowingTKSDKInfoViewController.m */; };
+		344D0AE629378B2D000F8FF8 /* GrowingTKSDKInfoTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A3E29378B2C000F8FF8 /* GrowingTKSDKInfoTableViewCell.h */; };
+		344D0AE729378B2D000F8FF8 /* GrowingTKSDKInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A3F29378B2C000F8FF8 /* GrowingTKSDKInfoTableViewCell.m */; };
+		344D0AE829378B2D000F8FF8 /* Dummy-Module-SDKInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A4129378B2C000F8FF8 /* Dummy-Module-SDKInfo.h */; };
+		344D0AE929378B2D000F8FF8 /* GrowingTKAppInfoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A4229378B2C000F8FF8 /* GrowingTKAppInfoUtil.m */; };
+		344D0AEA29378B2D000F8FF8 /* GrowingTKSDKInfoPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A4329378B2C000F8FF8 /* GrowingTKSDKInfoPlugin.m */; };
+		344D0AEB29378B2D000F8FF8 /* GrowingToolsKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A4529378B2C000F8FF8 /* GrowingToolsKit.m */; };
+		344D0AEC29378B2D000F8FF8 /* GrowingToolsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 344D0A4629378B2C000F8FF8 /* GrowingToolsKit.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		344D094F293782B4000F8FF8 /* GrowingToolsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GrowingToolsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		344D09652937842B000F8FF8 /* GrowingTKUniModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrowingTKUniModule.h; sourceTree = "<group>"; };
+		344D09662937842B000F8FF8 /* GrowingTKUniModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrowingTKUniModule.m; sourceTree = "<group>"; };
+		344D09692937861A000F8FF8 /* GrowingTKUniProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrowingTKUniProxy.h; sourceTree = "<group>"; };
+		344D096A2937861A000F8FF8 /* GrowingTKUniProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrowingTKUniProxy.m; sourceTree = "<group>"; };
+		344D097229378B2B000F8FF8 /* GrowingTKDatabase+Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GrowingTKDatabase+Request.h"; sourceTree = "<group>"; };
+		344D097329378B2B000F8FF8 /* GrowingTKRequestPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKRequestPersistence.m; sourceTree = "<group>"; };
+		344D097429378B2B000F8FF8 /* GrowingTKDatabase+Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GrowingTKDatabase+Request.m"; sourceTree = "<group>"; };
+		344D097529378B2B000F8FF8 /* GrowingTKRequestPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKRequestPersistence.h; sourceTree = "<group>"; };
+		344D097729378B2B000F8FF8 /* GrowingTKRequestUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKRequestUtil.m; sourceTree = "<group>"; };
+		344D097929378B2B000F8FF8 /* GrowingTKLZ4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKLZ4.h; sourceTree = "<group>"; };
+		344D097A29378B2B000F8FF8 /* GrowingTKLZ4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GrowingTKLZ4.c; sourceTree = "<group>"; };
+		344D097B29378B2B000F8FF8 /* GrowingTKRequestUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKRequestUtil.h; sourceTree = "<group>"; };
+		344D097C29378B2B000F8FF8 /* GrowingTKNetFlowPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKNetFlowPlugin.h; sourceTree = "<group>"; };
+		344D097E29378B2B000F8FF8 /* GrowingTKNetFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKNetFlowViewController.m; sourceTree = "<group>"; };
+		344D097F29378B2B000F8FF8 /* GrowingTKNetFlowDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKNetFlowDetailViewController.m; sourceTree = "<group>"; };
+		344D098029378B2B000F8FF8 /* GrowingTKNetFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKNetFlowViewController.h; sourceTree = "<group>"; };
+		344D098229378B2B000F8FF8 /* GrowingTKNetFlowHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKNetFlowHeaderView.m; sourceTree = "<group>"; };
+		344D098329378B2B000F8FF8 /* GrowingTKSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKSegmentedControl.h; sourceTree = "<group>"; };
+		344D098429378B2B000F8FF8 /* GrowingTKNetFlowDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKNetFlowDetailTableViewCell.m; sourceTree = "<group>"; };
+		344D098529378B2B000F8FF8 /* GrowingTKNetFlowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKNetFlowTableViewCell.h; sourceTree = "<group>"; };
+		344D098629378B2B000F8FF8 /* GrowingTKNetFlowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKNetFlowTableViewCell.m; sourceTree = "<group>"; };
+		344D098729378B2B000F8FF8 /* GrowingTKNetFlowDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKNetFlowDetailTableViewCell.h; sourceTree = "<group>"; };
+		344D098829378B2B000F8FF8 /* GrowingTKSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKSegmentedControl.m; sourceTree = "<group>"; };
+		344D098929378B2B000F8FF8 /* GrowingTKNetFlowHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKNetFlowHeaderView.h; sourceTree = "<group>"; };
+		344D098A29378B2B000F8FF8 /* GrowingTKNetFlowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKNetFlowDetailViewController.h; sourceTree = "<group>"; };
+		344D098C29378B2B000F8FF8 /* Dummy-Module-NetFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dummy-Module-NetFlow.h"; sourceTree = "<group>"; };
+		344D098E29378B2B000F8FF8 /* GrowingTKURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKURLProtocol.m; sourceTree = "<group>"; };
+		344D098F29378B2B000F8FF8 /* GrowingTKDataTaskInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKDataTaskInfo.h; sourceTree = "<group>"; };
+		344D099029378B2B000F8FF8 /* GrowingTKURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKURLProtocol.h; sourceTree = "<group>"; };
+		344D099129378B2B000F8FF8 /* GrowingTKDataTaskInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKDataTaskInfo.m; sourceTree = "<group>"; };
+		344D099229378B2B000F8FF8 /* GrowingTKNetFlowPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKNetFlowPlugin.m; sourceTree = "<group>"; };
+		344D099429378B2B000F8FF8 /* GrowingTKSettingsPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKSettingsPlugin.m; sourceTree = "<group>"; };
+		344D099629378B2B000F8FF8 /* GrowingTKSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKSettingsViewController.m; sourceTree = "<group>"; };
+		344D099729378B2B000F8FF8 /* GrowingTKSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKSettingsViewController.h; sourceTree = "<group>"; };
+		344D099929378B2B000F8FF8 /* GrowingTKSettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKSettingsTableViewCell.m; sourceTree = "<group>"; };
+		344D099A29378B2B000F8FF8 /* GrowingTKSettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKSettingsTableViewCell.h; sourceTree = "<group>"; };
+		344D099C29378B2B000F8FF8 /* Dummy-Module-Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dummy-Module-Settings.h"; sourceTree = "<group>"; };
+		344D099D29378B2B000F8FF8 /* GrowingTKSettingsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKSettingsPlugin.h; sourceTree = "<group>"; };
+		344D09A029378B2B000F8FF8 /* GrowingTKDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKDatabase.h; sourceTree = "<group>"; };
+		344D09A229378B2B000F8FF8 /* GrowingTKFMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKFMDatabasePool.h; sourceTree = "<group>"; };
+		344D09A329378B2B000F8FF8 /* GrowingTKFMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKFMDatabaseQueue.h; sourceTree = "<group>"; };
+		344D09A429378B2B000F8FF8 /* GrowingTKFMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKFMDatabase.h; sourceTree = "<group>"; };
+		344D09A529378B2B000F8FF8 /* GrowingTKFMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKFMResultSet.m; sourceTree = "<group>"; };
+		344D09A629378B2B000F8FF8 /* GrowingTKFMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKFMDatabaseAdditions.m; sourceTree = "<group>"; };
+		344D09A729378B2B000F8FF8 /* GrowingTKFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKFMDB.h; sourceTree = "<group>"; };
+		344D09A829378B2B000F8FF8 /* GrowingTKFMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKFMDatabaseQueue.m; sourceTree = "<group>"; };
+		344D09A929378B2B000F8FF8 /* GrowingTKFMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKFMDatabasePool.m; sourceTree = "<group>"; };
+		344D09AA29378B2B000F8FF8 /* GrowingTKFMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKFMDatabase.m; sourceTree = "<group>"; };
+		344D09AB29378B2B000F8FF8 /* GrowingTKFMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKFMResultSet.h; sourceTree = "<group>"; };
+		344D09AC29378B2B000F8FF8 /* GrowingTKFMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKFMDatabaseAdditions.h; sourceTree = "<group>"; };
+		344D09AD29378B2B000F8FF8 /* GrowingTKDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKDatabase.m; sourceTree = "<group>"; };
+		344D09AE29378B2B000F8FF8 /* GrowingTKEntryWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKEntryWindow.h; sourceTree = "<group>"; };
+		344D09B029378B2B000F8FF8 /* GrowingTKNumberUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKNumberUtil.m; sourceTree = "<group>"; };
+		344D09B129378B2B000F8FF8 /* GrowingTKDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKDateUtil.h; sourceTree = "<group>"; };
+		344D09B229378B2B000F8FF8 /* GrowingTKDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKDevice.m; sourceTree = "<group>"; };
+		344D09B329378B2B000F8FF8 /* GrowingTKWeakObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKWeakObject.m; sourceTree = "<group>"; };
+		344D09B429378B2B000F8FF8 /* GrowingTKLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKLocalization.h; sourceTree = "<group>"; };
+		344D09B529378B2B000F8FF8 /* GrowingTKUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKUtil.h; sourceTree = "<group>"; };
+		344D09B629378B2B000F8FF8 /* GrowingTKSDKUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKSDKUtil.h; sourceTree = "<group>"; };
+		344D09B729378B2B000F8FF8 /* GrowingTKPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKPermission.h; sourceTree = "<group>"; };
+		344D09B829378B2B000F8FF8 /* GrowingTKNumberUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKNumberUtil.h; sourceTree = "<group>"; };
+		344D09B929378B2B000F8FF8 /* GrowingTKDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKDateUtil.m; sourceTree = "<group>"; };
+		344D09BA29378B2B000F8FF8 /* GrowingTKWeakObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKWeakObject.h; sourceTree = "<group>"; };
+		344D09BB29378B2B000F8FF8 /* GrowingTKDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKDevice.h; sourceTree = "<group>"; };
+		344D09BC29378B2B000F8FF8 /* GrowingTKLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKLocalization.m; sourceTree = "<group>"; };
+		344D09BD29378B2B000F8FF8 /* GrowingTKPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKPermission.m; sourceTree = "<group>"; };
+		344D09BE29378B2B000F8FF8 /* GrowingTKSDKUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKSDKUtil.m; sourceTree = "<group>"; };
+		344D09BF29378B2B000F8FF8 /* GrowingTKUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKUtil.m; sourceTree = "<group>"; };
+		344D09C129378B2B000F8FF8 /* GrowingTKPluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKPluginProtocol.h; sourceTree = "<group>"; };
+		344D09C229378B2B000F8FF8 /* GrowingTKPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKPluginManager.h; sourceTree = "<group>"; };
+		344D09C329378B2B000F8FF8 /* GrowingTKPluginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKPluginManager.m; sourceTree = "<group>"; };
+		344D09C429378B2B000F8FF8 /* GrowingRealToolsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingRealToolsKit.h; sourceTree = "<group>"; };
+		344D09CA29378B2B000F8FF8 /* GrowingTKHomeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKHomeWindow.h; sourceTree = "<group>"; };
+		344D09CB29378B2B000F8FF8 /* GrowingTKEntryWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKEntryWindow.m; sourceTree = "<group>"; };
+		344D09CD29378B2B000F8FF8 /* Dummy-Module-Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dummy-Module-Core.h"; sourceTree = "<group>"; };
+		344D09CE29378B2B000F8FF8 /* GrowingTKDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKDefine.h; sourceTree = "<group>"; };
+		344D09CF29378B2B000F8FF8 /* GrowingTKHomeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKHomeWindow.m; sourceTree = "<group>"; };
+		344D09D229378B2B000F8FF8 /* GrowingTKHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKHomeViewController.m; sourceTree = "<group>"; };
+		344D09D329378B2B000F8FF8 /* GrowingTKHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKHomeViewController.h; sourceTree = "<group>"; };
+		344D09D529378B2B000F8FF8 /* GrowingTKSDKCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKSDKCheckViewController.m; sourceTree = "<group>"; };
+		344D09D729378B2B000F8FF8 /* GrowingTKCheckSelfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKCheckSelfView.h; sourceTree = "<group>"; };
+		344D09D829378B2B000F8FF8 /* GrowingTKCheckInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKCheckInfoTableViewCell.m; sourceTree = "<group>"; };
+		344D09D929378B2B000F8FF8 /* GrowingTKCheckSelfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKCheckSelfView.m; sourceTree = "<group>"; };
+		344D09DA29378B2B000F8FF8 /* GrowingTKCheckInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKCheckInfoTableViewCell.h; sourceTree = "<group>"; };
+		344D09DB29378B2B000F8FF8 /* GrowingTKSDKCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKSDKCheckViewController.h; sourceTree = "<group>"; };
+		344D09DC29378B2B000F8FF8 /* GrowingTKEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKEntryViewController.h; sourceTree = "<group>"; };
+		344D09DE29378B2B000F8FF8 /* GrowingTKPluginsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKPluginsListViewController.m; sourceTree = "<group>"; };
+		344D09DF29378B2B000F8FF8 /* GrowingTKPluginsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKPluginsListViewController.h; sourceTree = "<group>"; };
+		344D09E129378B2B000F8FF8 /* GrowingTKPluginsListFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKPluginsListFooterView.h; sourceTree = "<group>"; };
+		344D09E229378B2B000F8FF8 /* GrowingTKPluginsListHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKPluginsListHeaderView.m; sourceTree = "<group>"; };
+		344D09E329378B2C000F8FF8 /* GrowingTKPluginsListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKPluginsListCollectionViewCell.m; sourceTree = "<group>"; };
+		344D09E429378B2C000F8FF8 /* GrowingTKPluginsListFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKPluginsListFooterView.m; sourceTree = "<group>"; };
+		344D09E529378B2C000F8FF8 /* GrowingTKPluginsListHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKPluginsListHeaderView.h; sourceTree = "<group>"; };
+		344D09E629378B2C000F8FF8 /* GrowingTKPluginsListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKPluginsListCollectionViewCell.h; sourceTree = "<group>"; };
+		344D09E929378B2C000F8FF8 /* GrowingTKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKBaseViewController.m; sourceTree = "<group>"; };
+		344D09EA29378B2C000F8FF8 /* GrowingTKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKNavigationController.m; sourceTree = "<group>"; };
+		344D09EB29378B2C000F8FF8 /* GrowingTKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKBaseViewController.h; sourceTree = "<group>"; };
+		344D09EC29378B2C000F8FF8 /* GrowingTKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKNavigationController.h; sourceTree = "<group>"; };
+		344D09EE29378B2C000F8FF8 /* GrowingTKChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKChooseView.h; sourceTree = "<group>"; };
+		344D09EF29378B2C000F8FF8 /* GrowingTKNavigationTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKNavigationTitleView.m; sourceTree = "<group>"; };
+		344D09F029378B2C000F8FF8 /* GrowingTKNavigationItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKNavigationItemView.m; sourceTree = "<group>"; };
+		344D09F129378B2C000F8FF8 /* GrowingTKModuleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKModuleButton.m; sourceTree = "<group>"; };
+		344D09F229378B2C000F8FF8 /* GrowingTKCopyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKCopyTextView.m; sourceTree = "<group>"; };
+		344D09F329378B2C000F8FF8 /* GrowingTKNavigationTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKNavigationTitleView.h; sourceTree = "<group>"; };
+		344D09F429378B2C000F8FF8 /* GrowingTKChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKChooseView.m; sourceTree = "<group>"; };
+		344D09F529378B2C000F8FF8 /* GrowingTKNavigationItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKNavigationItemView.h; sourceTree = "<group>"; };
+		344D09F629378B2C000F8FF8 /* GrowingTKCopyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKCopyTextView.h; sourceTree = "<group>"; };
+		344D09F729378B2C000F8FF8 /* GrowingTKModuleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKModuleButton.h; sourceTree = "<group>"; };
+		344D09F829378B2C000F8FF8 /* GrowingTKEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKEntryViewController.m; sourceTree = "<group>"; };
+		344D09F929378B2C000F8FF8 /* GrowingRealToolsKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingRealToolsKit.m; sourceTree = "<group>"; };
+		344D09FC29378B2C000F8FF8 /* UIViewController+GrowingTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GrowingTK.m"; sourceTree = "<group>"; };
+		344D09FD29378B2C000F8FF8 /* UIView+GrowingTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GrowingTK.h"; sourceTree = "<group>"; };
+		344D09FE29378B2C000F8FF8 /* UIImage+GrowingTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GrowingTK.m"; sourceTree = "<group>"; };
+		344D09FF29378B2C000F8FF8 /* UIColor+GrowingTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GrowingTK.h"; sourceTree = "<group>"; };
+		344D0A0029378B2C000F8FF8 /* UIImage+GrowingTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GrowingTK.h"; sourceTree = "<group>"; };
+		344D0A0129378B2C000F8FF8 /* UIView+GrowingTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GrowingTK.m"; sourceTree = "<group>"; };
+		344D0A0229378B2C000F8FF8 /* UIViewController+GrowingTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GrowingTK.h"; sourceTree = "<group>"; };
+		344D0A0329378B2C000F8FF8 /* UIColor+GrowingTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GrowingTK.m"; sourceTree = "<group>"; };
+		344D0A0529378B2C000F8FF8 /* NSBundle+GrowingTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+GrowingTK.m"; sourceTree = "<group>"; };
+		344D0A0629378B2C000F8FF8 /* NSObject+GrowingTKSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GrowingTKSwizzle.m"; sourceTree = "<group>"; };
+		344D0A0729378B2C000F8FF8 /* NSBundle+GrowingTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+GrowingTK.h"; sourceTree = "<group>"; };
+		344D0A0829378B2C000F8FF8 /* NSObject+GrowingTKSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GrowingTKSwizzle.h"; sourceTree = "<group>"; };
+		344D0A0A29378B2C000F8FF8 /* GrowingTKRealtimeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKRealtimeWindow.m; sourceTree = "<group>"; };
+		344D0A0C29378B2C000F8FF8 /* GrowingTKRealtimeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKRealtimeEvent.h; sourceTree = "<group>"; };
+		344D0A0D29378B2C000F8FF8 /* GrowingTKRealtimeEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKRealtimeEvent.m; sourceTree = "<group>"; };
+		344D0A0E29378B2C000F8FF8 /* GrowingTKRealtimePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKRealtimePlugin.m; sourceTree = "<group>"; };
+		344D0A0F29378B2C000F8FF8 /* GrowingTKRealtimeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKRealtimeWindow.h; sourceTree = "<group>"; };
+		344D0A1129378B2C000F8FF8 /* GrowingTKRealtimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKRealtimeViewController.m; sourceTree = "<group>"; };
+		344D0A1329378B2C000F8FF8 /* GrowingTKRealtimeSingleBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKRealtimeSingleBubble.h; sourceTree = "<group>"; };
+		344D0A1429378B2C000F8FF8 /* GrowingTKRealtimePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKRealtimePool.m; sourceTree = "<group>"; };
+		344D0A1529378B2C000F8FF8 /* GrowingTKRealtimeMutiBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKRealtimeMutiBubble.h; sourceTree = "<group>"; };
+		344D0A1629378B2C000F8FF8 /* GrowingTKRealtimeSingleBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKRealtimeSingleBubble.m; sourceTree = "<group>"; };
+		344D0A1729378B2C000F8FF8 /* GrowingTKRealtimeBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKRealtimeBubble.h; sourceTree = "<group>"; };
+		344D0A1829378B2C000F8FF8 /* GrowingTKRealtimePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKRealtimePool.h; sourceTree = "<group>"; };
+		344D0A1929378B2C000F8FF8 /* GrowingTKRealtimeMutiBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKRealtimeMutiBubble.m; sourceTree = "<group>"; };
+		344D0A1B29378B2C000F8FF8 /* GrowingTKRealtimeListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKRealtimeListView.h; sourceTree = "<group>"; };
+		344D0A1C29378B2C000F8FF8 /* GrowingTKRealtimeListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKRealtimeListView.m; sourceTree = "<group>"; };
+		344D0A1D29378B2C000F8FF8 /* GrowingTKRealtimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKRealtimeViewController.h; sourceTree = "<group>"; };
+		344D0A1F29378B2C000F8FF8 /* Dummy-Module-Realtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dummy-Module-Realtime.h"; sourceTree = "<group>"; };
+		344D0A2029378B2C000F8FF8 /* GrowingTKRealtimePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKRealtimePlugin.h; sourceTree = "<group>"; };
+		344D0A2329378B2C000F8FF8 /* GrowingTKDatabase+Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GrowingTKDatabase+Event.m"; sourceTree = "<group>"; };
+		344D0A2429378B2C000F8FF8 /* GrowingTKEventPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKEventPersistence.h; sourceTree = "<group>"; };
+		344D0A2529378B2C000F8FF8 /* GrowingTKDatabase+Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GrowingTKDatabase+Event.h"; sourceTree = "<group>"; };
+		344D0A2629378B2C000F8FF8 /* GrowingTKEventPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKEventPersistence.m; sourceTree = "<group>"; };
+		344D0A2729378B2C000F8FF8 /* GrowingTKEventsListPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKEventsListPlugin.h; sourceTree = "<group>"; };
+		344D0A2929378B2C000F8FF8 /* GrowingTKEventsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKEventsListViewController.h; sourceTree = "<group>"; };
+		344D0A2A29378B2C000F8FF8 /* GrowingTKEventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKEventDetailViewController.m; sourceTree = "<group>"; };
+		344D0A2C29378B2C000F8FF8 /* GrowingTKEventsListHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKEventsListHeaderView.m; sourceTree = "<group>"; };
+		344D0A2D29378B2C000F8FF8 /* GrowingTKEventTypeChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKEventTypeChooseView.m; sourceTree = "<group>"; };
+		344D0A2E29378B2C000F8FF8 /* GrowingTKEventsListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKEventsListTableViewCell.m; sourceTree = "<group>"; };
+		344D0A2F29378B2C000F8FF8 /* GrowingTKEventsListHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKEventsListHeaderView.h; sourceTree = "<group>"; };
+		344D0A3029378B2C000F8FF8 /* GrowingTKEventsListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKEventsListTableViewCell.h; sourceTree = "<group>"; };
+		344D0A3129378B2C000F8FF8 /* GrowingTKEventTypeChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKEventTypeChooseView.h; sourceTree = "<group>"; };
+		344D0A3229378B2C000F8FF8 /* GrowingTKEventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKEventDetailViewController.h; sourceTree = "<group>"; };
+		344D0A3329378B2C000F8FF8 /* GrowingTKEventsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKEventsListViewController.m; sourceTree = "<group>"; };
+		344D0A3529378B2C000F8FF8 /* Dummy-Module-EventList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dummy-Module-EventList.h"; sourceTree = "<group>"; };
+		344D0A3629378B2C000F8FF8 /* GrowingTKEventsListPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKEventsListPlugin.m; sourceTree = "<group>"; };
+		344D0A3829378B2C000F8FF8 /* GrowingTKAppInfoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKAppInfoUtil.h; sourceTree = "<group>"; };
+		344D0A3929378B2C000F8FF8 /* GrowingTKSDKInfoPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKSDKInfoPlugin.h; sourceTree = "<group>"; };
+		344D0A3B29378B2C000F8FF8 /* GrowingTKSDKInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKSDKInfoViewController.h; sourceTree = "<group>"; };
+		344D0A3C29378B2C000F8FF8 /* GrowingTKSDKInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKSDKInfoViewController.m; sourceTree = "<group>"; };
+		344D0A3E29378B2C000F8FF8 /* GrowingTKSDKInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTKSDKInfoTableViewCell.h; sourceTree = "<group>"; };
+		344D0A3F29378B2C000F8FF8 /* GrowingTKSDKInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKSDKInfoTableViewCell.m; sourceTree = "<group>"; };
+		344D0A4129378B2C000F8FF8 /* Dummy-Module-SDKInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dummy-Module-SDKInfo.h"; sourceTree = "<group>"; };
+		344D0A4229378B2C000F8FF8 /* GrowingTKAppInfoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKAppInfoUtil.m; sourceTree = "<group>"; };
+		344D0A4329378B2C000F8FF8 /* GrowingTKSDKInfoPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTKSDKInfoPlugin.m; sourceTree = "<group>"; };
+		344D0A4529378B2C000F8FF8 /* GrowingToolsKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingToolsKit.m; sourceTree = "<group>"; };
+		344D0A4629378B2C000F8FF8 /* GrowingToolsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingToolsKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		344D094C293782B4000F8FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344D0945293782B3000F8FF8 = {
+			isa = PBXGroup;
+			children = (
+				344D0951293782B4000F8FF8 /* GrowingToolsKit */,
+				344D0950293782B4000F8FF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		344D0950293782B4000F8FF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				344D094F293782B4000F8FF8 /* GrowingToolsKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		344D0951293782B4000F8FF8 /* GrowingToolsKit */ = {
+			isa = PBXGroup;
+			children = (
+				344D096F29378B2B000F8FF8 /* Sources */,
+				344D09652937842B000F8FF8 /* GrowingTKUniModule.h */,
+				344D09662937842B000F8FF8 /* GrowingTKUniModule.m */,
+				344D09692937861A000F8FF8 /* GrowingTKUniProxy.h */,
+				344D096A2937861A000F8FF8 /* GrowingTKUniProxy.m */,
+			);
+			path = GrowingToolsKit;
+			sourceTree = "<group>";
+		};
+		344D096F29378B2B000F8FF8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				344D097029378B2B000F8FF8 /* NetFlow */,
+				344D099329378B2B000F8FF8 /* Settings */,
+				344D099E29378B2B000F8FF8 /* Core */,
+				344D0A0929378B2C000F8FF8 /* Realtime */,
+				344D0A2129378B2C000F8FF8 /* EventsList */,
+				344D0A3729378B2C000F8FF8 /* SDKInfo */,
+				344D0A4429378B2C000F8FF8 /* GrowingToolsKit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		344D097029378B2B000F8FF8 /* NetFlow */ = {
+			isa = PBXGroup;
+			children = (
+				344D097129378B2B000F8FF8 /* Database */,
+				344D097629378B2B000F8FF8 /* Util */,
+				344D097C29378B2B000F8FF8 /* GrowingTKNetFlowPlugin.h */,
+				344D097D29378B2B000F8FF8 /* Controller */,
+				344D098B29378B2B000F8FF8 /* Public */,
+				344D098D29378B2B000F8FF8 /* CustomURLProtocol */,
+				344D099229378B2B000F8FF8 /* GrowingTKNetFlowPlugin.m */,
+			);
+			path = NetFlow;
+			sourceTree = "<group>";
+		};
+		344D097129378B2B000F8FF8 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				344D097229378B2B000F8FF8 /* GrowingTKDatabase+Request.h */,
+				344D097329378B2B000F8FF8 /* GrowingTKRequestPersistence.m */,
+				344D097429378B2B000F8FF8 /* GrowingTKDatabase+Request.m */,
+				344D097529378B2B000F8FF8 /* GrowingTKRequestPersistence.h */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		344D097629378B2B000F8FF8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				344D097729378B2B000F8FF8 /* GrowingTKRequestUtil.m */,
+				344D097829378B2B000F8FF8 /* LZ4 */,
+				344D097B29378B2B000F8FF8 /* GrowingTKRequestUtil.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		344D097829378B2B000F8FF8 /* LZ4 */ = {
+			isa = PBXGroup;
+			children = (
+				344D097929378B2B000F8FF8 /* GrowingTKLZ4.h */,
+				344D097A29378B2B000F8FF8 /* GrowingTKLZ4.c */,
+			);
+			path = LZ4;
+			sourceTree = "<group>";
+		};
+		344D097D29378B2B000F8FF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				344D097E29378B2B000F8FF8 /* GrowingTKNetFlowViewController.m */,
+				344D097F29378B2B000F8FF8 /* GrowingTKNetFlowDetailViewController.m */,
+				344D098029378B2B000F8FF8 /* GrowingTKNetFlowViewController.h */,
+				344D098129378B2B000F8FF8 /* View */,
+				344D098A29378B2B000F8FF8 /* GrowingTKNetFlowDetailViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		344D098129378B2B000F8FF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				344D098229378B2B000F8FF8 /* GrowingTKNetFlowHeaderView.m */,
+				344D098329378B2B000F8FF8 /* GrowingTKSegmentedControl.h */,
+				344D098429378B2B000F8FF8 /* GrowingTKNetFlowDetailTableViewCell.m */,
+				344D098529378B2B000F8FF8 /* GrowingTKNetFlowTableViewCell.h */,
+				344D098629378B2B000F8FF8 /* GrowingTKNetFlowTableViewCell.m */,
+				344D098729378B2B000F8FF8 /* GrowingTKNetFlowDetailTableViewCell.h */,
+				344D098829378B2B000F8FF8 /* GrowingTKSegmentedControl.m */,
+				344D098929378B2B000F8FF8 /* GrowingTKNetFlowHeaderView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		344D098B29378B2B000F8FF8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				344D098C29378B2B000F8FF8 /* Dummy-Module-NetFlow.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		344D098D29378B2B000F8FF8 /* CustomURLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				344D098E29378B2B000F8FF8 /* GrowingTKURLProtocol.m */,
+				344D098F29378B2B000F8FF8 /* GrowingTKDataTaskInfo.h */,
+				344D099029378B2B000F8FF8 /* GrowingTKURLProtocol.h */,
+				344D099129378B2B000F8FF8 /* GrowingTKDataTaskInfo.m */,
+			);
+			path = CustomURLProtocol;
+			sourceTree = "<group>";
+		};
+		344D099329378B2B000F8FF8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				344D099429378B2B000F8FF8 /* GrowingTKSettingsPlugin.m */,
+				344D099529378B2B000F8FF8 /* Controller */,
+				344D099B29378B2B000F8FF8 /* Public */,
+				344D099D29378B2B000F8FF8 /* GrowingTKSettingsPlugin.h */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		344D099529378B2B000F8FF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				344D099629378B2B000F8FF8 /* GrowingTKSettingsViewController.m */,
+				344D099729378B2B000F8FF8 /* GrowingTKSettingsViewController.h */,
+				344D099829378B2B000F8FF8 /* View */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		344D099829378B2B000F8FF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				344D099929378B2B000F8FF8 /* GrowingTKSettingsTableViewCell.m */,
+				344D099A29378B2B000F8FF8 /* GrowingTKSettingsTableViewCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		344D099B29378B2B000F8FF8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				344D099C29378B2B000F8FF8 /* Dummy-Module-Settings.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		344D099E29378B2B000F8FF8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				344D099F29378B2B000F8FF8 /* Database */,
+				344D09AE29378B2B000F8FF8 /* GrowingTKEntryWindow.h */,
+				344D09AF29378B2B000F8FF8 /* Tools */,
+				344D09C029378B2B000F8FF8 /* PluginCore */,
+				344D09C429378B2B000F8FF8 /* GrowingRealToolsKit.h */,
+				344D09CA29378B2B000F8FF8 /* GrowingTKHomeWindow.h */,
+				344D09CB29378B2B000F8FF8 /* GrowingTKEntryWindow.m */,
+				344D09CC29378B2B000F8FF8 /* Public */,
+				344D09CE29378B2B000F8FF8 /* GrowingTKDefine.h */,
+				344D09CF29378B2B000F8FF8 /* GrowingTKHomeWindow.m */,
+				344D09D029378B2B000F8FF8 /* UserInterface */,
+				344D09F929378B2C000F8FF8 /* GrowingRealToolsKit.m */,
+				344D09FA29378B2C000F8FF8 /* Categories */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		344D099F29378B2B000F8FF8 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				344D09A029378B2B000F8FF8 /* GrowingTKDatabase.h */,
+				344D09A129378B2B000F8FF8 /* FMDB */,
+				344D09AD29378B2B000F8FF8 /* GrowingTKDatabase.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		344D09A129378B2B000F8FF8 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				344D09A229378B2B000F8FF8 /* GrowingTKFMDatabasePool.h */,
+				344D09A329378B2B000F8FF8 /* GrowingTKFMDatabaseQueue.h */,
+				344D09A429378B2B000F8FF8 /* GrowingTKFMDatabase.h */,
+				344D09A529378B2B000F8FF8 /* GrowingTKFMResultSet.m */,
+				344D09A629378B2B000F8FF8 /* GrowingTKFMDatabaseAdditions.m */,
+				344D09A729378B2B000F8FF8 /* GrowingTKFMDB.h */,
+				344D09A829378B2B000F8FF8 /* GrowingTKFMDatabaseQueue.m */,
+				344D09A929378B2B000F8FF8 /* GrowingTKFMDatabasePool.m */,
+				344D09AA29378B2B000F8FF8 /* GrowingTKFMDatabase.m */,
+				344D09AB29378B2B000F8FF8 /* GrowingTKFMResultSet.h */,
+				344D09AC29378B2B000F8FF8 /* GrowingTKFMDatabaseAdditions.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		344D09AF29378B2B000F8FF8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				344D09B029378B2B000F8FF8 /* GrowingTKNumberUtil.m */,
+				344D09B129378B2B000F8FF8 /* GrowingTKDateUtil.h */,
+				344D09B229378B2B000F8FF8 /* GrowingTKDevice.m */,
+				344D09B329378B2B000F8FF8 /* GrowingTKWeakObject.m */,
+				344D09B429378B2B000F8FF8 /* GrowingTKLocalization.h */,
+				344D09B529378B2B000F8FF8 /* GrowingTKUtil.h */,
+				344D09B629378B2B000F8FF8 /* GrowingTKSDKUtil.h */,
+				344D09B729378B2B000F8FF8 /* GrowingTKPermission.h */,
+				344D09B829378B2B000F8FF8 /* GrowingTKNumberUtil.h */,
+				344D09B929378B2B000F8FF8 /* GrowingTKDateUtil.m */,
+				344D09BA29378B2B000F8FF8 /* GrowingTKWeakObject.h */,
+				344D09BB29378B2B000F8FF8 /* GrowingTKDevice.h */,
+				344D09BC29378B2B000F8FF8 /* GrowingTKLocalization.m */,
+				344D09BD29378B2B000F8FF8 /* GrowingTKPermission.m */,
+				344D09BE29378B2B000F8FF8 /* GrowingTKSDKUtil.m */,
+				344D09BF29378B2B000F8FF8 /* GrowingTKUtil.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		344D09C029378B2B000F8FF8 /* PluginCore */ = {
+			isa = PBXGroup;
+			children = (
+				344D09C129378B2B000F8FF8 /* GrowingTKPluginProtocol.h */,
+				344D09C229378B2B000F8FF8 /* GrowingTKPluginManager.h */,
+				344D09C329378B2B000F8FF8 /* GrowingTKPluginManager.m */,
+			);
+			path = PluginCore;
+			sourceTree = "<group>";
+		};
+		344D09CC29378B2B000F8FF8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				344D09CD29378B2B000F8FF8 /* Dummy-Module-Core.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		344D09D029378B2B000F8FF8 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				344D09D129378B2B000F8FF8 /* Home */,
+				344D09D429378B2B000F8FF8 /* SDKCheck */,
+				344D09DC29378B2B000F8FF8 /* GrowingTKEntryViewController.h */,
+				344D09DD29378B2B000F8FF8 /* PluginsList */,
+				344D09E729378B2C000F8FF8 /* Base */,
+				344D09F829378B2C000F8FF8 /* GrowingTKEntryViewController.m */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		344D09D129378B2B000F8FF8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				344D09D229378B2B000F8FF8 /* GrowingTKHomeViewController.m */,
+				344D09D329378B2B000F8FF8 /* GrowingTKHomeViewController.h */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		344D09D429378B2B000F8FF8 /* SDKCheck */ = {
+			isa = PBXGroup;
+			children = (
+				344D09D529378B2B000F8FF8 /* GrowingTKSDKCheckViewController.m */,
+				344D09D629378B2B000F8FF8 /* View */,
+				344D09DB29378B2B000F8FF8 /* GrowingTKSDKCheckViewController.h */,
+			);
+			path = SDKCheck;
+			sourceTree = "<group>";
+		};
+		344D09D629378B2B000F8FF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				344D09D729378B2B000F8FF8 /* GrowingTKCheckSelfView.h */,
+				344D09D829378B2B000F8FF8 /* GrowingTKCheckInfoTableViewCell.m */,
+				344D09D929378B2B000F8FF8 /* GrowingTKCheckSelfView.m */,
+				344D09DA29378B2B000F8FF8 /* GrowingTKCheckInfoTableViewCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		344D09DD29378B2B000F8FF8 /* PluginsList */ = {
+			isa = PBXGroup;
+			children = (
+				344D09DE29378B2B000F8FF8 /* GrowingTKPluginsListViewController.m */,
+				344D09DF29378B2B000F8FF8 /* GrowingTKPluginsListViewController.h */,
+				344D09E029378B2B000F8FF8 /* View */,
+			);
+			path = PluginsList;
+			sourceTree = "<group>";
+		};
+		344D09E029378B2B000F8FF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				344D09E129378B2B000F8FF8 /* GrowingTKPluginsListFooterView.h */,
+				344D09E229378B2B000F8FF8 /* GrowingTKPluginsListHeaderView.m */,
+				344D09E329378B2C000F8FF8 /* GrowingTKPluginsListCollectionViewCell.m */,
+				344D09E429378B2C000F8FF8 /* GrowingTKPluginsListFooterView.m */,
+				344D09E529378B2C000F8FF8 /* GrowingTKPluginsListHeaderView.h */,
+				344D09E629378B2C000F8FF8 /* GrowingTKPluginsListCollectionViewCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		344D09E729378B2C000F8FF8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				344D09E829378B2C000F8FF8 /* Controller */,
+				344D09ED29378B2C000F8FF8 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		344D09E829378B2C000F8FF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				344D09E929378B2C000F8FF8 /* GrowingTKBaseViewController.m */,
+				344D09EA29378B2C000F8FF8 /* GrowingTKNavigationController.m */,
+				344D09EB29378B2C000F8FF8 /* GrowingTKBaseViewController.h */,
+				344D09EC29378B2C000F8FF8 /* GrowingTKNavigationController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		344D09ED29378B2C000F8FF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				344D09EE29378B2C000F8FF8 /* GrowingTKChooseView.h */,
+				344D09EF29378B2C000F8FF8 /* GrowingTKNavigationTitleView.m */,
+				344D09F029378B2C000F8FF8 /* GrowingTKNavigationItemView.m */,
+				344D09F129378B2C000F8FF8 /* GrowingTKModuleButton.m */,
+				344D09F229378B2C000F8FF8 /* GrowingTKCopyTextView.m */,
+				344D09F329378B2C000F8FF8 /* GrowingTKNavigationTitleView.h */,
+				344D09F429378B2C000F8FF8 /* GrowingTKChooseView.m */,
+				344D09F529378B2C000F8FF8 /* GrowingTKNavigationItemView.h */,
+				344D09F629378B2C000F8FF8 /* GrowingTKCopyTextView.h */,
+				344D09F729378B2C000F8FF8 /* GrowingTKModuleButton.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		344D09FA29378B2C000F8FF8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				344D09FB29378B2C000F8FF8 /* UIKit */,
+				344D0A0429378B2C000F8FF8 /* Foundation */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		344D09FB29378B2C000F8FF8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				344D09FC29378B2C000F8FF8 /* UIViewController+GrowingTK.m */,
+				344D09FD29378B2C000F8FF8 /* UIView+GrowingTK.h */,
+				344D09FE29378B2C000F8FF8 /* UIImage+GrowingTK.m */,
+				344D09FF29378B2C000F8FF8 /* UIColor+GrowingTK.h */,
+				344D0A0029378B2C000F8FF8 /* UIImage+GrowingTK.h */,
+				344D0A0129378B2C000F8FF8 /* UIView+GrowingTK.m */,
+				344D0A0229378B2C000F8FF8 /* UIViewController+GrowingTK.h */,
+				344D0A0329378B2C000F8FF8 /* UIColor+GrowingTK.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		344D0A0429378B2C000F8FF8 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A0529378B2C000F8FF8 /* NSBundle+GrowingTK.m */,
+				344D0A0629378B2C000F8FF8 /* NSObject+GrowingTKSwizzle.m */,
+				344D0A0729378B2C000F8FF8 /* NSBundle+GrowingTK.h */,
+				344D0A0829378B2C000F8FF8 /* NSObject+GrowingTKSwizzle.h */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		344D0A0929378B2C000F8FF8 /* Realtime */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A0A29378B2C000F8FF8 /* GrowingTKRealtimeWindow.m */,
+				344D0A0B29378B2C000F8FF8 /* Util */,
+				344D0A0E29378B2C000F8FF8 /* GrowingTKRealtimePlugin.m */,
+				344D0A0F29378B2C000F8FF8 /* GrowingTKRealtimeWindow.h */,
+				344D0A1029378B2C000F8FF8 /* Controller */,
+				344D0A1E29378B2C000F8FF8 /* Public */,
+				344D0A2029378B2C000F8FF8 /* GrowingTKRealtimePlugin.h */,
+			);
+			path = Realtime;
+			sourceTree = "<group>";
+		};
+		344D0A0B29378B2C000F8FF8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A0C29378B2C000F8FF8 /* GrowingTKRealtimeEvent.h */,
+				344D0A0D29378B2C000F8FF8 /* GrowingTKRealtimeEvent.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		344D0A1029378B2C000F8FF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A1129378B2C000F8FF8 /* GrowingTKRealtimeViewController.m */,
+				344D0A1229378B2C000F8FF8 /* Bubble */,
+				344D0A1A29378B2C000F8FF8 /* View */,
+				344D0A1D29378B2C000F8FF8 /* GrowingTKRealtimeViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		344D0A1229378B2C000F8FF8 /* Bubble */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A1329378B2C000F8FF8 /* GrowingTKRealtimeSingleBubble.h */,
+				344D0A1429378B2C000F8FF8 /* GrowingTKRealtimePool.m */,
+				344D0A1529378B2C000F8FF8 /* GrowingTKRealtimeMutiBubble.h */,
+				344D0A1629378B2C000F8FF8 /* GrowingTKRealtimeSingleBubble.m */,
+				344D0A1729378B2C000F8FF8 /* GrowingTKRealtimeBubble.h */,
+				344D0A1829378B2C000F8FF8 /* GrowingTKRealtimePool.h */,
+				344D0A1929378B2C000F8FF8 /* GrowingTKRealtimeMutiBubble.m */,
+			);
+			path = Bubble;
+			sourceTree = "<group>";
+		};
+		344D0A1A29378B2C000F8FF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A1B29378B2C000F8FF8 /* GrowingTKRealtimeListView.h */,
+				344D0A1C29378B2C000F8FF8 /* GrowingTKRealtimeListView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		344D0A1E29378B2C000F8FF8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A1F29378B2C000F8FF8 /* Dummy-Module-Realtime.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		344D0A2129378B2C000F8FF8 /* EventsList */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A2229378B2C000F8FF8 /* Database */,
+				344D0A2729378B2C000F8FF8 /* GrowingTKEventsListPlugin.h */,
+				344D0A2829378B2C000F8FF8 /* Controller */,
+				344D0A3429378B2C000F8FF8 /* Public */,
+				344D0A3629378B2C000F8FF8 /* GrowingTKEventsListPlugin.m */,
+			);
+			path = EventsList;
+			sourceTree = "<group>";
+		};
+		344D0A2229378B2C000F8FF8 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A2329378B2C000F8FF8 /* GrowingTKDatabase+Event.m */,
+				344D0A2429378B2C000F8FF8 /* GrowingTKEventPersistence.h */,
+				344D0A2529378B2C000F8FF8 /* GrowingTKDatabase+Event.h */,
+				344D0A2629378B2C000F8FF8 /* GrowingTKEventPersistence.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		344D0A2829378B2C000F8FF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A2929378B2C000F8FF8 /* GrowingTKEventsListViewController.h */,
+				344D0A2A29378B2C000F8FF8 /* GrowingTKEventDetailViewController.m */,
+				344D0A2B29378B2C000F8FF8 /* View */,
+				344D0A3229378B2C000F8FF8 /* GrowingTKEventDetailViewController.h */,
+				344D0A3329378B2C000F8FF8 /* GrowingTKEventsListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		344D0A2B29378B2C000F8FF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A2C29378B2C000F8FF8 /* GrowingTKEventsListHeaderView.m */,
+				344D0A2D29378B2C000F8FF8 /* GrowingTKEventTypeChooseView.m */,
+				344D0A2E29378B2C000F8FF8 /* GrowingTKEventsListTableViewCell.m */,
+				344D0A2F29378B2C000F8FF8 /* GrowingTKEventsListHeaderView.h */,
+				344D0A3029378B2C000F8FF8 /* GrowingTKEventsListTableViewCell.h */,
+				344D0A3129378B2C000F8FF8 /* GrowingTKEventTypeChooseView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		344D0A3429378B2C000F8FF8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A3529378B2C000F8FF8 /* Dummy-Module-EventList.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		344D0A3729378B2C000F8FF8 /* SDKInfo */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A3829378B2C000F8FF8 /* GrowingTKAppInfoUtil.h */,
+				344D0A3929378B2C000F8FF8 /* GrowingTKSDKInfoPlugin.h */,
+				344D0A3A29378B2C000F8FF8 /* Controller */,
+				344D0A4029378B2C000F8FF8 /* Public */,
+				344D0A4229378B2C000F8FF8 /* GrowingTKAppInfoUtil.m */,
+				344D0A4329378B2C000F8FF8 /* GrowingTKSDKInfoPlugin.m */,
+			);
+			path = SDKInfo;
+			sourceTree = "<group>";
+		};
+		344D0A3A29378B2C000F8FF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A3B29378B2C000F8FF8 /* GrowingTKSDKInfoViewController.h */,
+				344D0A3C29378B2C000F8FF8 /* GrowingTKSDKInfoViewController.m */,
+				344D0A3D29378B2C000F8FF8 /* View */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		344D0A3D29378B2C000F8FF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A3E29378B2C000F8FF8 /* GrowingTKSDKInfoTableViewCell.h */,
+				344D0A3F29378B2C000F8FF8 /* GrowingTKSDKInfoTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		344D0A4029378B2C000F8FF8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A4129378B2C000F8FF8 /* Dummy-Module-SDKInfo.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		344D0A4429378B2C000F8FF8 /* GrowingToolsKit */ = {
+			isa = PBXGroup;
+			children = (
+				344D0A4529378B2C000F8FF8 /* GrowingToolsKit.m */,
+				344D0A4629378B2C000F8FF8 /* GrowingToolsKit.h */,
+			);
+			path = GrowingToolsKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		344D094A293782B4000F8FF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344D0A7E29378B2C000F8FF8 /* GrowingTKPermission.h in Headers */,
+				344D0A9829378B2C000F8FF8 /* GrowingTKCheckInfoTableViewCell.h in Headers */,
+				344D0A7C29378B2C000F8FF8 /* GrowingTKUtil.h in Headers */,
+				344D0AE229378B2D000F8FF8 /* GrowingTKAppInfoUtil.h in Headers */,
+				344D0A7329378B2C000F8FF8 /* GrowingTKFMResultSet.h in Headers */,
+				344D0AE329378B2D000F8FF8 /* GrowingTKSDKInfoPlugin.h in Headers */,
+				344D0AA129378B2C000F8FF8 /* GrowingTKPluginsListHeaderView.h in Headers */,
+				344D0AD629378B2D000F8FF8 /* GrowingTKEventsListViewController.h in Headers */,
+				344D0ABD29378B2D000F8FF8 /* NSBundle+GrowingTK.h in Headers */,
+				344D0ACF29378B2D000F8FF8 /* Dummy-Module-Realtime.h in Headers */,
+				344D0A5229378B2C000F8FF8 /* GrowingTKNetFlowViewController.h in Headers */,
+				344D0A8F29378B2C000F8FF8 /* Dummy-Module-Core.h in Headers */,
+				344D0AD529378B2D000F8FF8 /* GrowingTKEventsListPlugin.h in Headers */,
+				344D0ABE29378B2D000F8FF8 /* NSObject+GrowingTKSwizzle.h in Headers */,
+				344D0A7829378B2C000F8FF8 /* GrowingTKDateUtil.h in Headers */,
+				344D0ADD29378B2D000F8FF8 /* GrowingTKEventTypeChooseView.h in Headers */,
+				344D0A8129378B2C000F8FF8 /* GrowingTKWeakObject.h in Headers */,
+				344D0AB629378B2D000F8FF8 /* UIColor+GrowingTK.h in Headers */,
+				344D0AAE29378B2D000F8FF8 /* GrowingTKNavigationItemView.h in Headers */,
+				344D0AA529378B2C000F8FF8 /* GrowingTKBaseViewController.h in Headers */,
+				344D0AB029378B2D000F8FF8 /* GrowingTKModuleButton.h in Headers */,
+				344D0ACE29378B2D000F8FF8 /* GrowingTKRealtimeViewController.h in Headers */,
+				344D0A8729378B2C000F8FF8 /* GrowingTKPluginProtocol.h in Headers */,
+				344D0A7D29378B2C000F8FF8 /* GrowingTKSDKUtil.h in Headers */,
+				344D0AC529378B2D000F8FF8 /* GrowingTKRealtimeSingleBubble.h in Headers */,
+				344D0AE029378B2D000F8FF8 /* Dummy-Module-EventList.h in Headers */,
+				344D096B2937861A000F8FF8 /* GrowingTKUniProxy.h in Headers */,
+				344D0AD229378B2D000F8FF8 /* GrowingTKEventPersistence.h in Headers */,
+				344D0AA629378B2C000F8FF8 /* GrowingTKNavigationController.h in Headers */,
+				344D0A6929378B2C000F8FF8 /* GrowingTKDatabase.h in Headers */,
+				344D0A6A29378B2C000F8FF8 /* GrowingTKFMDatabasePool.h in Headers */,
+				344D0A5429378B2C000F8FF8 /* GrowingTKSegmentedControl.h in Headers */,
+				344D0A9529378B2C000F8FF8 /* GrowingTKCheckSelfView.h in Headers */,
+				344D0AA229378B2C000F8FF8 /* GrowingTKPluginsListCollectionViewCell.h in Headers */,
+				344D0AB729378B2D000F8FF8 /* UIImage+GrowingTK.h in Headers */,
+				344D0AD329378B2D000F8FF8 /* GrowingTKDatabase+Event.h in Headers */,
+				344D0A4F29378B2C000F8FF8 /* GrowingTKNetFlowPlugin.h in Headers */,
+				344D0AD029378B2D000F8FF8 /* GrowingTKRealtimePlugin.h in Headers */,
+				344D0AAC29378B2D000F8FF8 /* GrowingTKNavigationTitleView.h in Headers */,
+				344D0A9929378B2C000F8FF8 /* GrowingTKSDKCheckViewController.h in Headers */,
+				344D0AC729378B2D000F8FF8 /* GrowingTKRealtimeMutiBubble.h in Headers */,
+				344D0A4A29378B2C000F8FF8 /* GrowingTKRequestPersistence.h in Headers */,
+				344D0A6C29378B2C000F8FF8 /* GrowingTKFMDatabase.h in Headers */,
+				344D0A9C29378B2C000F8FF8 /* GrowingTKPluginsListViewController.h in Headers */,
+				344D0A9329378B2C000F8FF8 /* GrowingTKHomeViewController.h in Headers */,
+				344D0A5A29378B2C000F8FF8 /* GrowingTKNetFlowHeaderView.h in Headers */,
+				344D0A7429378B2C000F8FF8 /* GrowingTKFMDatabaseAdditions.h in Headers */,
+				344D0A4729378B2C000F8FF8 /* GrowingTKDatabase+Request.h in Headers */,
+				344D0A6B29378B2C000F8FF8 /* GrowingTKFMDatabaseQueue.h in Headers */,
+				344D0A6829378B2C000F8FF8 /* GrowingTKSettingsPlugin.h in Headers */,
+				344D0A7629378B2C000F8FF8 /* GrowingTKEntryWindow.h in Headers */,
+				344D0A7B29378B2C000F8FF8 /* GrowingTKLocalization.h in Headers */,
+				344D0A7F29378B2C000F8FF8 /* GrowingTKNumberUtil.h in Headers */,
+				344D0A9029378B2C000F8FF8 /* GrowingTKDefine.h in Headers */,
+				344D0AB429378B2D000F8FF8 /* UIView+GrowingTK.h in Headers */,
+				344D0A4C29378B2C000F8FF8 /* GrowingTKLZ4.h in Headers */,
+				344D0A8D29378B2C000F8FF8 /* GrowingTKHomeWindow.h in Headers */,
+				344D0A8A29378B2C000F8FF8 /* GrowingRealToolsKit.h in Headers */,
+				344D0ACC29378B2D000F8FF8 /* GrowingTKRealtimeListView.h in Headers */,
+				344D0AA729378B2C000F8FF8 /* GrowingTKChooseView.h in Headers */,
+				344D0A5829378B2C000F8FF8 /* GrowingTKNetFlowDetailTableViewCell.h in Headers */,
+				344D09672937842B000F8FF8 /* GrowingTKUniModule.h in Headers */,
+				344D0AE629378B2D000F8FF8 /* GrowingTKSDKInfoTableViewCell.h in Headers */,
+				344D0AB929378B2D000F8FF8 /* UIViewController+GrowingTK.h in Headers */,
+				344D0A4E29378B2C000F8FF8 /* GrowingTKRequestUtil.h in Headers */,
+				344D0AC029378B2D000F8FF8 /* GrowingTKRealtimeEvent.h in Headers */,
+				344D0A5B29378B2C000F8FF8 /* GrowingTKNetFlowDetailViewController.h in Headers */,
+				344D0A8229378B2C000F8FF8 /* GrowingTKDevice.h in Headers */,
+				344D0A9D29378B2C000F8FF8 /* GrowingTKPluginsListFooterView.h in Headers */,
+				344D0A5E29378B2C000F8FF8 /* GrowingTKDataTaskInfo.h in Headers */,
+				344D0A8829378B2C000F8FF8 /* GrowingTKPluginManager.h in Headers */,
+				344D0ADB29378B2D000F8FF8 /* GrowingTKEventsListHeaderView.h in Headers */,
+				344D0AEC29378B2D000F8FF8 /* GrowingToolsKit.h in Headers */,
+				344D0A6F29378B2C000F8FF8 /* GrowingTKFMDB.h in Headers */,
+				344D0AAF29378B2D000F8FF8 /* GrowingTKCopyTextView.h in Headers */,
+				344D0AC929378B2D000F8FF8 /* GrowingTKRealtimeBubble.h in Headers */,
+				344D0A5F29378B2C000F8FF8 /* GrowingTKURLProtocol.h in Headers */,
+				344D0ADE29378B2D000F8FF8 /* GrowingTKEventDetailViewController.h in Headers */,
+				344D0A6629378B2C000F8FF8 /* GrowingTKSettingsTableViewCell.h in Headers */,
+				344D0ADC29378B2D000F8FF8 /* GrowingTKEventsListTableViewCell.h in Headers */,
+				344D0A9A29378B2C000F8FF8 /* GrowingTKEntryViewController.h in Headers */,
+				344D0ACA29378B2D000F8FF8 /* GrowingTKRealtimePool.h in Headers */,
+				344D0A6729378B2C000F8FF8 /* Dummy-Module-Settings.h in Headers */,
+				344D0A6429378B2C000F8FF8 /* GrowingTKSettingsViewController.h in Headers */,
+				344D0AE429378B2D000F8FF8 /* GrowingTKSDKInfoViewController.h in Headers */,
+				344D0A5629378B2C000F8FF8 /* GrowingTKNetFlowTableViewCell.h in Headers */,
+				344D0AC329378B2D000F8FF8 /* GrowingTKRealtimeWindow.h in Headers */,
+				344D0AE829378B2D000F8FF8 /* Dummy-Module-SDKInfo.h in Headers */,
+				344D0A5C29378B2C000F8FF8 /* Dummy-Module-NetFlow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		344D094E293782B4000F8FF8 /* GrowingToolsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344D0956293782B4000F8FF8 /* Build configuration list for PBXNativeTarget "GrowingToolsKit" */;
+			buildPhases = (
+				344D094A293782B4000F8FF8 /* Headers */,
+				344D094B293782B4000F8FF8 /* Sources */,
+				344D094C293782B4000F8FF8 /* Frameworks */,
+				344D094D293782B4000F8FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrowingToolsKit;
+			productName = GrowingToolsKit;
+			productReference = 344D094F293782B4000F8FF8 /* GrowingToolsKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		344D0946293782B4000F8FF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					344D094E293782B4000F8FF8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 344D0949293782B4000F8FF8 /* Build configuration list for PBXProject "GrowingToolsKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 344D0945293782B3000F8FF8;
+			productRefGroup = 344D0950293782B4000F8FF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				344D094E293782B4000F8FF8 /* GrowingToolsKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		344D094D293782B4000F8FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		344D094B293782B4000F8FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344D0A6229378B2C000F8FF8 /* GrowingTKSettingsPlugin.m in Sources */,
+				344D0ADA29378B2D000F8FF8 /* GrowingTKEventsListTableViewCell.m in Sources */,
+				344D0A4B29378B2C000F8FF8 /* GrowingTKRequestUtil.m in Sources */,
+				344D0AB229378B2D000F8FF8 /* GrowingRealToolsKit.m in Sources */,
+				344D0A5529378B2C000F8FF8 /* GrowingTKNetFlowDetailTableViewCell.m in Sources */,
+				344D0A8529378B2C000F8FF8 /* GrowingTKSDKUtil.m in Sources */,
+				344D0AC229378B2D000F8FF8 /* GrowingTKRealtimePlugin.m in Sources */,
+				344D0ACD29378B2D000F8FF8 /* GrowingTKRealtimeListView.m in Sources */,
+				344D0AEB29378B2D000F8FF8 /* GrowingToolsKit.m in Sources */,
+				344D0A9229378B2C000F8FF8 /* GrowingTKHomeViewController.m in Sources */,
+				344D0ADF29378B2D000F8FF8 /* GrowingTKEventsListViewController.m in Sources */,
+				344D0A8629378B2C000F8FF8 /* GrowingTKUtil.m in Sources */,
+				344D0AD129378B2D000F8FF8 /* GrowingTKDatabase+Event.m in Sources */,
+				344D0A9429378B2C000F8FF8 /* GrowingTKSDKCheckViewController.m in Sources */,
+				344D0A5D29378B2C000F8FF8 /* GrowingTKURLProtocol.m in Sources */,
+				344D0AA829378B2C000F8FF8 /* GrowingTKNavigationTitleView.m in Sources */,
+				344D0AD429378B2D000F8FF8 /* GrowingTKEventPersistence.m in Sources */,
+				344D0AE129378B2D000F8FF8 /* GrowingTKEventsListPlugin.m in Sources */,
+				344D0ABF29378B2D000F8FF8 /* GrowingTKRealtimeWindow.m in Sources */,
+				344D09682937842B000F8FF8 /* GrowingTKUniModule.m in Sources */,
+				344D0AD729378B2D000F8FF8 /* GrowingTKEventDetailViewController.m in Sources */,
+				344D0AAB29378B2D000F8FF8 /* GrowingTKCopyTextView.m in Sources */,
+				344D0ACB29378B2D000F8FF8 /* GrowingTKRealtimeMutiBubble.m in Sources */,
+				344D0A4829378B2C000F8FF8 /* GrowingTKRequestPersistence.m in Sources */,
+				344D0A6529378B2C000F8FF8 /* GrowingTKSettingsTableViewCell.m in Sources */,
+				344D0AB529378B2D000F8FF8 /* UIImage+GrowingTK.m in Sources */,
+				344D0AE929378B2D000F8FF8 /* GrowingTKAppInfoUtil.m in Sources */,
+				344D0A9629378B2C000F8FF8 /* GrowingTKCheckInfoTableViewCell.m in Sources */,
+				344D0A7229378B2C000F8FF8 /* GrowingTKFMDatabase.m in Sources */,
+				344D0AE729378B2D000F8FF8 /* GrowingTKSDKInfoTableViewCell.m in Sources */,
+				344D0A6129378B2C000F8FF8 /* GrowingTKNetFlowPlugin.m in Sources */,
+				344D0A9E29378B2C000F8FF8 /* GrowingTKPluginsListHeaderView.m in Sources */,
+				344D0AAA29378B2C000F8FF8 /* GrowingTKModuleButton.m in Sources */,
+				344D0A8429378B2C000F8FF8 /* GrowingTKPermission.m in Sources */,
+				344D0AC829378B2D000F8FF8 /* GrowingTKRealtimeSingleBubble.m in Sources */,
+				344D0A5729378B2C000F8FF8 /* GrowingTKNetFlowTableViewCell.m in Sources */,
+				344D0A9B29378B2C000F8FF8 /* GrowingTKPluginsListViewController.m in Sources */,
+				344D0A7929378B2C000F8FF8 /* GrowingTKDevice.m in Sources */,
+				344D0AC629378B2D000F8FF8 /* GrowingTKRealtimePool.m in Sources */,
+				344D0A6D29378B2C000F8FF8 /* GrowingTKFMResultSet.m in Sources */,
+				344D0AD929378B2D000F8FF8 /* GrowingTKEventTypeChooseView.m in Sources */,
+				344D0A5029378B2C000F8FF8 /* GrowingTKNetFlowViewController.m in Sources */,
+				344D0A4D29378B2C000F8FF8 /* GrowingTKLZ4.c in Sources */,
+				344D0ABC29378B2D000F8FF8 /* NSObject+GrowingTKSwizzle.m in Sources */,
+				344D0AA929378B2C000F8FF8 /* GrowingTKNavigationItemView.m in Sources */,
+				344D096C2937861A000F8FF8 /* GrowingTKUniProxy.m in Sources */,
+				344D0A7729378B2C000F8FF8 /* GrowingTKNumberUtil.m in Sources */,
+				344D0A9129378B2C000F8FF8 /* GrowingTKHomeWindow.m in Sources */,
+				344D0AA429378B2C000F8FF8 /* GrowingTKNavigationController.m in Sources */,
+				344D0A5329378B2C000F8FF8 /* GrowingTKNetFlowHeaderView.m in Sources */,
+				344D0ABB29378B2D000F8FF8 /* NSBundle+GrowingTK.m in Sources */,
+				344D0AA329378B2C000F8FF8 /* GrowingTKBaseViewController.m in Sources */,
+				344D0AD829378B2D000F8FF8 /* GrowingTKEventsListHeaderView.m in Sources */,
+				344D0A7A29378B2C000F8FF8 /* GrowingTKWeakObject.m in Sources */,
+				344D0A8029378B2C000F8FF8 /* GrowingTKDateUtil.m in Sources */,
+				344D0AAD29378B2D000F8FF8 /* GrowingTKChooseView.m in Sources */,
+				344D0AC129378B2D000F8FF8 /* GrowingTKRealtimeEvent.m in Sources */,
+				344D0A7129378B2C000F8FF8 /* GrowingTKFMDatabasePool.m in Sources */,
+				344D0AA029378B2C000F8FF8 /* GrowingTKPluginsListFooterView.m in Sources */,
+				344D0AC429378B2D000F8FF8 /* GrowingTKRealtimeViewController.m in Sources */,
+				344D0A8329378B2C000F8FF8 /* GrowingTKLocalization.m in Sources */,
+				344D0A8929378B2C000F8FF8 /* GrowingTKPluginManager.m in Sources */,
+				344D0A6329378B2C000F8FF8 /* GrowingTKSettingsViewController.m in Sources */,
+				344D0A5129378B2C000F8FF8 /* GrowingTKNetFlowDetailViewController.m in Sources */,
+				344D0A8E29378B2C000F8FF8 /* GrowingTKEntryWindow.m in Sources */,
+				344D0A6E29378B2C000F8FF8 /* GrowingTKFMDatabaseAdditions.m in Sources */,
+				344D0A9729378B2C000F8FF8 /* GrowingTKCheckSelfView.m in Sources */,
+				344D0A6029378B2C000F8FF8 /* GrowingTKDataTaskInfo.m in Sources */,
+				344D0A4929378B2C000F8FF8 /* GrowingTKDatabase+Request.m in Sources */,
+				344D0A9F29378B2C000F8FF8 /* GrowingTKPluginsListCollectionViewCell.m in Sources */,
+				344D0A7029378B2C000F8FF8 /* GrowingTKFMDatabaseQueue.m in Sources */,
+				344D0ABA29378B2D000F8FF8 /* UIColor+GrowingTK.m in Sources */,
+				344D0AE529378B2D000F8FF8 /* GrowingTKSDKInfoViewController.m in Sources */,
+				344D0AB829378B2D000F8FF8 /* UIView+GrowingTK.m in Sources */,
+				344D0A5929378B2C000F8FF8 /* GrowingTKSegmentedControl.m in Sources */,
+				344D0A7529378B2C000F8FF8 /* GrowingTKDatabase.m in Sources */,
+				344D0AB329378B2D000F8FF8 /* UIViewController+GrowingTK.m in Sources */,
+				344D0AEA29378B2D000F8FF8 /* GrowingTKSDKInfoPlugin.m in Sources */,
+				344D0AB129378B2D000F8FF8 /* GrowingTKEntryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		344D0954293782B4000F8FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		344D0955293782B4000F8FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		344D0957293782B4000F8FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SXBU677CPT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../SDK/inc\"/**";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.growingio.GrowingToolsKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		344D0958293782B4000F8FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SXBU677CPT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../SDK/inc\"/**";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.growingio.GrowingToolsKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		344D0949293782B4000F8FF8 /* Build configuration list for PBXProject "GrowingToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344D0954293782B4000F8FF8 /* Debug */,
+				344D0955293782B4000F8FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344D0956293782B4000F8FF8 /* Build configuration list for PBXNativeTarget "GrowingToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344D0957293782B4000F8FF8 /* Debug */,
+				344D0958293782B4000F8FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 344D0946293782B4000F8FF8 /* Project object */;
+}

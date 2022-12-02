@@ -1,0 +1,27 @@
+{
+	"name": "GrowingToolsKit",
+	"id": "GrowingToolsKit",
+	"version": "1.1.0",
+	"description": "uniapp GioKit 插件",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"ios": {
+			"plugins": [{
+				"type": "module",
+				"name": "GrowingToolsKit",
+				"class": "GrowingTKUniModule"
+			}],
+			"hooksClass": "GrowingTKUniProxy",
+			"frameworks": ["UIKit.framework", "Foundation.framework"],
+			"integrateType": "framework",
+			"deploymentTarget": "9.0",
+			"parameters": {
+		        "growing_ios_giokit_delay_init": {
+		          "des": "是否延迟初始化(可选字段(YES or NO), 默认为NO)",
+		          "key": "growing_ios_giokit_delay_init"
+		        }
+		    }
+		}
+	}
+}
+
